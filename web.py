@@ -7,7 +7,7 @@ df = pd.read_csv(
     'csv/datasets/OrchardSprays.csv')
 
 # Write the csv file.
-df.to_csv(r'/home/ubuntu/pandas/webscraping/webdata.csv',sep='\t',index=False)
+df.to_csv(r'C:/Users/slmsh/Documents/GitHub/awsgit/webdata1.csv',sep='\t',index=False)
 
 # print the dataframe.
-print(df)
+print(sorted(list(df.columns)))
